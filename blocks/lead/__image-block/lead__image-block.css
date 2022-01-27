@@ -1,0 +1,9 @@
+.lead__image-block {
+  min-width: 320px;
+  max-width: 984px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}

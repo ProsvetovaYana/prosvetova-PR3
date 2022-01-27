@@ -1,0 +1,35 @@
+.place {
+  display: grid;
+  min-width: 320px;
+  max-width: 984px;
+  gap: 32px;
+  margin: 0 auto;
+  padding: 0 0 50px 0;
+}
+
+.place:last-of-type {
+  padding-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .place {
+    padding: 0 24px 73px 24px;
+    grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+    grid-template-rows: minmax(46px, 152px) minmax(340px 460px);
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place {
+    padding: 0 48px 80px 48px;
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    padding: 0 148px 80px 148px;
+    gap: 48px 40px;
+  }
+}
